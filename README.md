@@ -10,8 +10,7 @@
 | [Кейс 2](https://github.com/Vladmir-Ogorodnikov/Case-2) | восстановить процесс по журналу без схемы | `process_map.png`, `variants.csv`, `student_transitions.csv`, `report.md`, `analyze.py` |
 | [Кейс 3](https://github.com/Vladmir-Ogorodnikov/Case-3) | продуктовые гипотезы по данным VPN-сервиса | отчёт с шестью гипотезами, `out/*.json`, код на DuckDB |
 
-Кейс 1 лежит в этом репозитории, Кейсы 2 и 3 — в отдельных (ссылки в таблице). В каждом репозитории
-свой `README.md`: что за данные, что получилось, как пересчитать.
+В каждом репозитории свой `README.md`: что за данные, что получилось, как пересчитать. Также `report.md` - отчет по каждому кейсу 
 
 ## Как запустить
 
@@ -36,8 +35,6 @@ python analyze.py && python make_diagram.py && python bonus_pm4py.py   # Кей�
 python case3_analysis.py && python h1_sensitivity.py && python analyze_logs.py   # Кейс 3
 ```
 
-Все числа из отчётов пересчитываются скриптами: объяснения в результатах генерируются из данных,
-а не вписаны вручную.
 
 ## Данные
 
